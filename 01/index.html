@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Calculadora de Operações Básicas</h1>
+    <label for="num1">Digite o primeiro número:</label>
+    <input type="number" id="num1" />
+
+    <label for="num2">Digite o segundo número:</label>
+    <input type="number" id="num2" />
+
+    <button onclick="calcular('soma')">Soma</button>
+    <button onclick="calcular('subtracao')">Subtração</button>
+    <button onclick="calcular('multiplicacao')">Multiplicação</button>
+    <button onclick="calcular('divisao')">Divisão</button>
+
+    <p id="resultado"></p>
+  </body>
+</html>
