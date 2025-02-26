@@ -31,8 +31,7 @@ obs:. cada uma das opções deve ter seu próprio método
 - Jornais - valor unitário de R$ 10,00
 - Revistas - valor unitário de R$ 20,00
 - Livros - valor unitário de R$ 30,00
-
-Discos - valor unitário de R$ 40,00
+- Discos - valor unitário de R$ 40,00
 
 Ao selecionar o tipo de produto, o programa irá solicitar a quantidade desejada pelo usuário e, em seguida, calcular o valor total da compra (o cálculo deve ser feito em um método separado).
 
